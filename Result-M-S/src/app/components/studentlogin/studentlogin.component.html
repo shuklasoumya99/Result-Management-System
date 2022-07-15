@@ -1,0 +1,30 @@
+<!--<p>Studentlogin works!</p>-->
+
+<!--Create Login form for Student-->
+
+<div class="container">
+  <div class="row">
+    <div class="col-md-6">
+      <div class="card">
+        <div class="text-center">
+          <h1>Student Login</h1>
+          <hr>
+
+        </div>
+        <!--Form Group and submit method-->
+        <form [formGroup]="studentLoginForm" (ngSubmit)="onStudentLogin()">
+          <div class="mb-3">
+            <label for="rollno" class="form-label">Enter Roll-No</label>
+            <input formControlName="rollno" placeholder="Enter RollNo" type="number" class="form-control" id="rollno">
+          </div>
+          <div class="mb-3">
+            <label for="email" class="form-label">Email</label>
+            <input formControlName="email" placeholder="Enter Email" type="email" class="form-control" id="email">
+          </div>
+
+          <button type="submit" class="btn btn-primary">Search</button>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>

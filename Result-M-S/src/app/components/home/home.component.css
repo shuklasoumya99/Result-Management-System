@@ -1,0 +1,14 @@
+.container{
+  text-align: center;
+  margin-top: 20px;
+}
+
+.button-row{
+    display: table-cell;
+    width: 450px;
+    padding:200px;
+}
+.btn-1{
+  margin:50px;
+  margin-left:20px ;
+}

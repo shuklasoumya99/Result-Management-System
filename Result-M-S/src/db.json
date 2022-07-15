@@ -1,0 +1,28 @@
+{
+  "posts": [
+    {
+      "id": 2,
+      "rollno": "1",
+      "name": "Doll",
+      "email": "ds",
+      "score": "475"
+    },
+    {
+      "id": 3,
+      "rollno": "2",
+      "name": "Shreya",
+      "email": "shreya@gmail.com",
+      "score": "433"
+    }
+  ],
+  "teacher": [
+    {
+      "username": "ss@gmail.com",
+      "password": "ss123"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

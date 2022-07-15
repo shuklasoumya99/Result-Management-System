@@ -1,0 +1,42 @@
+{
+  "posts": [
+    {
+      "id": 3,
+      "rollno": "102",
+      "name": "Snehil Gupta",
+      "email": "sg@gmail.com",
+      "score": "456"
+    },
+    {
+      "id": 4,
+      "rollno": "103",
+      "name": "Soumya Shukla",
+      "email": "sss@gmail.com",
+      "score": "465"
+    },
+    {
+      "id": 5,
+      "rollno": "105",
+      "name": "abc",
+      "email": "abc@gmail.com",
+      "score": "345"
+    },
+    {
+      "id": 6,
+      "rollno": "101",
+      "name": "dsa",
+      "email": "dsa@gmail.com",
+      "score": "345"
+    }
+  ],
+  "teacher": [
+    {
+      "username": "ss@gmail.com",
+      "password": "ss123"
+    }
+  ],
+  "comments": [],
+  "profile": {
+    "name": "typicode"
+  }
+}

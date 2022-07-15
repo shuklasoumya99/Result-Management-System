@@ -1,0 +1,30 @@
+<div class="text-right">
+  <button (click)="logout()" type="button" class="btn btn-danger">Logout</button>
+</div>
+
+<div class="container">
+  <div class="text-align-center">
+    <h2>Result</h2>
+    <hr>
+    <table class="table">
+      <tbody>
+        <tr>
+          <td>RollNo: </td>
+           <td> {{data.rollno}} </td>
+        </tr> 
+        <tr>
+          <td>Name: </td>
+          <td> {{data.name}} </td>
+        </tr>
+        <tr>
+          <td>Email: </td>
+          <td> {{data.email}} </td>
+        </tr>
+        <tr>
+          <td>Score: </td>
+          <td> {{data.score}} </td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+</div>
